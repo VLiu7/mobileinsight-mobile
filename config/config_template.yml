@@ -45,10 +45,10 @@ sdk_path : /home/vagrant/android-sdk
 api_level : 27
 
 # replace it with your Android NDK path
-ndk_path : /home/vagrant/android-ndk-r19b
+ndk_path : /home/vagrant/android-ndk-r25c
 
 # replace it with your Android NDK version
-ndk_version : r19b
+ndk_version : r25c
 
 # replace it with your desired target arch
 arch : arm64-v8a
