@@ -87,7 +87,8 @@ def run_apk(build_release):
         + ' --permission INSTALL_PACKAGES' \
         + ' --permission ACCESS_NETWORK_STATE' \
         + ' --permission ACCESS_FINE_LOCATION' \
-        + ' --permission ACCESS_COARSE_LOCATION'
+        + ' --permission ACCESS_COARSE_LOCATION'\
+        + ' --bootstrap=sdl2'
     # + ' --intent-filters BOOT_COMPLETED'
 
     if build_release is True:
